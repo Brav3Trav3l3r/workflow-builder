@@ -1,0 +1,22 @@
+.panel {
+  border: 2px solid rgb(169, 215, 255);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: aliceblue;
+}
+
+.nodes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.node {
+  padding: 0.5rem;
+  border: 2px solid rgb(253, 188, 184);
+  text-align: center;
+  border-radius: 0.25rem;
+  background-color: rgb(255, 241, 240);
+  color: rgb(255, 41, 25);
+  font-size: 0.8rem;
+}

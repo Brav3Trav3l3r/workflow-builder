@@ -1,0 +1,17 @@
+.panel {
+  background-color: white;
+  border: 2px solid var(--neutral);
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.link {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  border: 2px solid var(--neutral);
+}

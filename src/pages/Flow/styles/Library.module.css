@@ -1,0 +1,64 @@
+.library {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 200px;
+  max-width: 400px;
+  background-color: white;
+  padding: 1rem;
+  border-left: 2px solid var(--neutral);
+}
+
+.heading svg {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--neutral);
+}
+
+.heading p {
+  font-weight: 500;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.flow {
+  outline: none;
+  border-width: 0px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.1s ease-out 0s,
+    box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+  background: #091e420a;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0px 12px;
+  vertical-align: middle;
+  width: auto;
+  font-size: 14px;
+  color: #42526e;
+}
+
+.flow:hover {
+  background: #091e4214;
+  text-decoration: inherit;
+  transition-duration: 0s, 0.15s;
+  color: #42526e;
+}
